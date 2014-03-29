@@ -14,3 +14,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore Rails Documentation
+doc/*
+
+# Ignore Vim and Emac Swap Files
+*.swp
+*~
+
+# Ignore project files
+.project
+
+# Ignore in case we ever run on a mac
+.DS_Store
